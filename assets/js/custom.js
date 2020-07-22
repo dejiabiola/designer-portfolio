@@ -28,12 +28,22 @@ var slider = tns({
 });
 
 
-      function openNav() {
-        document.getElementById("myNav").style.height = "100%";
-      }
-      
-      function closeNav() {
-        document.getElementById("myNav").style.height = "0%";
-      }
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+
+
+document.querySelector("#open-nav-button").addEventListener('click', function() {
+  document.querySelector("body").style.overflow = 'hidden';
+});
+
+/* when modal is closed */
+document.querySelector("#close-nav-button").addEventListener('click', function() {
+  document.querySelector("body").style.overflow = 'visible';
+});
 
 
