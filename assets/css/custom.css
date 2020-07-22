@@ -31,9 +31,15 @@ html {
   background-color: var(--hero-color);
   display: flex;
   align-items: center;
-  position: fixed;
+  
   z-index: 100;
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .nav-wrapper {
+    position: fixed;
+  }
 }
 
 .nav-item {
