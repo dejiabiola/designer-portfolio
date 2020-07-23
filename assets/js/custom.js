@@ -52,11 +52,11 @@ AOS.init({
 
 
 // Brag number count config
-// $(function(){
-//     $('.brag-number').rCounter({
-//       duration: 40
-//     });
-// });
+$(function(){
+    $('.brag-number').rCounter({
+      duration: 40
+    });
+});
   
   
 
