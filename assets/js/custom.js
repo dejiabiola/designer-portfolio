@@ -47,7 +47,7 @@ AOS.init({
 // Brag number count config
 $(function(){
     $('.brag-number').rCounter({
-      duration:30
+      duration:20
     });
 });
   
