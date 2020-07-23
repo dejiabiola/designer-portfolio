@@ -1,6 +1,6 @@
 
 
-
+$(window).on('load', function(){
 // Tiny slider config
 var slider = tns({
   container: '.my-slider',
@@ -39,6 +39,7 @@ function closeNav() {
 }
 
 
+
 // Animate on scroll config
 AOS.init({
   offset: 200,
@@ -52,12 +53,13 @@ AOS.init({
 
 
 // Brag number count config
-// $(function(){
-//     $('.brag-number').rCounter({
-//       duration: 40
-//     });
-// });
+$(function(){
+    $('.brag-number').rCounter({
+      duration:30
+    });
+});
   
+});
   
 
 
