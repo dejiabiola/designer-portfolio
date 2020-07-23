@@ -79,6 +79,7 @@ html {
   height: 100%;
   position: relative;
   min-width: 100%;
+  overflow: hidden;
 }
 
 .hero-section:before {
@@ -96,6 +97,25 @@ html {
   background-repeat: no-repeat;
   position: absolute;
 
+}
+
+@media (max-width: 767px) {
+  .hero-section:before {
+    background: url("https://res.cloudinary.com/dejiabiola/image/upload/v1595467623/envato_2.0/hero2.jpg");
+    background-position: 50% top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-section:before {
+    background: url("https://res.cloudinary.com/dejiabiola/image/upload/v1595467874/envato_2.0/Webp.net-compress-image.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
 }
 
 
@@ -201,6 +221,7 @@ main {
   /* background: #E5E5E5; */
   background: #F4F4F4;
   padding-top: 113px;
+  overflow: hidden;
 }
 
 
@@ -209,6 +230,7 @@ main {
 .what-container {
   /* max-width: 1440px; */
   margin-bottom: 118px;
+  overflow: hidden;
 }
 
 .head-wrapper {
@@ -298,6 +320,7 @@ main {
 
 .about-container {
   margin-bottom: 70px;
+  overflow: hidden;
 }
 
 .about-container span {

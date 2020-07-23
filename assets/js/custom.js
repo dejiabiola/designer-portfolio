@@ -28,6 +28,8 @@ var slider = tns({
 });
 
 
+
+// Mobile navbar config
 function openNav() {
   document.getElementById("myNav").style.height = "100%";
 }
@@ -37,13 +39,31 @@ function closeNav() {
 }
 
 
-document.querySelector("#open-nav-button").addEventListener('click', function() {
-  document.querySelector("body").style.overflow = 'hidden';
+// Animate on scroll config
+AOS.init({
+  offset: 200,
+  duration: 600,
+  once: true,
+  // disable: 'phone'
 });
 
-/* when modal is closed */
-document.querySelector("#close-nav-button").addEventListener('click', function() {
-  document.querySelector("body").style.overflow = 'visible';
+
+
+
+
+// Brag number count config
+$(function(){
+    $('.brag-number').rCounter({
+      duration: 40
+    });
 });
+  
+  
+
+
+
+
+
+  
 
 

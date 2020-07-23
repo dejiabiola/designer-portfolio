@@ -9,13 +9,14 @@
     <!-- Bootstrap CSS, slick slider, custom -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/custom.css">
   </head>
   <body>
     <!-- *header -->
     <header class="header-container">
       <!-- *nav-bar -->
-      <div class="nav-wrapper">
+      <div class="nav-wrapper" data-aos="fade-down" data-aos-delay="300">
         <nav class=" container navbar navbar-expand-lg navbar-light px-md-0">
           <a class="navbar-brand" href="#">
             <img src="./assets/images/logo.svg" alt="">
@@ -62,7 +63,7 @@
 
       <!-- *hero section -->
       <section class="hero-section">
-        <div class="hero-text-wrapper container px-md-0">
+        <div class="hero-text-wrapper container px-md-0" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="400">
           <p>Welcome!</p>
           <h1>I'm Deborah Joseph</h1>
           <h2>Product Designer & UX researcher</h2>
@@ -77,11 +78,11 @@
     <main>
       <!-- *What I do section -->
       <section class="what-container container px-md-0" id="home">
-        <div class="mx-auto text-center head-wrapper">
+        <div class="mx-auto text-center head-wrapper" data-aos="slide-right">
           <span class="">What I Do</span>
         </div>
        
-        <div class="card-container d-flex flex-wrap justify-content-between mx-n3 my-n3">
+        <div class="card-container d-flex flex-wrap justify-content-between mx-n3 my-n3" data-aos="fade-up" data-aos-delay="300">
           <div class="what-card text-center px-3 m-3">
             <div class="icon-wrapper">
               <img src="./assets/images/what-icon-1.svg" alt="">
@@ -117,16 +118,16 @@
 
       <!-- *About Me Section -->
       <section class="about-container container px-md-0" id="about">
-        <div class="mx-auto text-center head-wrapper">
+        <div class="mx-auto text-center head-wrapper" data-aos="slide-left">
           <span class="">About Me</span>
         </div>
         <div class="about-wrapper row justify-content-start">
-          <div class="col-lg-5 about-image-wrapper mb-5 mb-lg-0 mx-auto mx-lg-0">
+          <div class="col-lg-5 about-image-wrapper mb-5 mb-lg-0 mx-auto mx-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="image-underlay mx-auto mx-lg-0">
               <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368924/envato_2.0/about.jpg" alt="woman smiling">
             </div>
           </div>
-          <div class="about-text-wrapper px-3 px-md-0 mx-auto mx-lg-0">
+          <div class="about-text-wrapper px-3 px-md-0 mx-auto mx-lg-0" data-aos="fade-left" data-aos-delay="400">
             <p class="px-2 px-md-0">
               I am an exceptional product designer with over five years work experience in various tech industry. 
               I design great user interface and I ensure my designs are neat and clean for the eyes. 
@@ -176,19 +177,19 @@
 
       <!-- *project section -->
       <section class="project-container container px-md-0" id="portfolio">
-        <div class="mx-auto text-center project-header-wrapper">
+        <div class="mx-auto text-center project-header-wrapper" data-aos="slide-right">
           <span class="">Latest Projects</span>
         </div>
-        <p class="col-md-7 px-md-5 text-center mx-auto">
+        <p class="col-md-7 px-md-5 text-center mx-auto" data-aos="fade-up">
           Take a look at some of my latest pojects from that speaks about user interface and elegant product designs.
         </p>
         <div class="grid-container">
-          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368920/envato_2.0/project_1.jpg" alt="" class="first">
-          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368920/envato_2.0/project_2.jpg" alt="" class="second">
-          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368922/envato_2.0/project_3.jpg" alt="" class="third">
-          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368923/envato_2.0/project_4.jpg" alt="" class="fourth">
-          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368924/envato_2.0/project_5.jpg" alt="" class="fifth">
-          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368925/envato_2.0/project_6.jpg" alt="" class="sixth">
+          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368920/envato_2.0/project_1.jpg" alt="" class="first" data-aos="fade-right">
+          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368920/envato_2.0/project_2.jpg" alt="" class="second" data-aos="flip-up">
+          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368922/envato_2.0/project_3.jpg" alt="" class="third" data-aos="fade-left">
+          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368923/envato_2.0/project_4.jpg" alt="" class="fourth" data-aos="fade-right">
+          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368924/envato_2.0/project_5.jpg" alt="" class="fifth" data-aos="fade-up">
+          <img src="https://res.cloudinary.com/dejiabiola/image/upload/v1595368925/envato_2.0/project_6.jpg" alt="" class="sixth" data-aos="fade-left">
         </div>
       </section>
 
@@ -208,10 +209,10 @@
 
       <!-- *testimonial section -->
       <section class="testimonial-container container px-md-0" id="testimonial">
-        <div class="mx-auto text-center test-header-wrapper">
+        <div class="mx-auto text-center test-header-wrapper" data-aos="slide-left">
           <span class="">Testimonials</span>
         </div>
-        <p class="text-center">Hear what my clients say about me</p>
+        <p class="text-center" data-aos="fade-up">Hear what my clients say about me</p>
         <div class="testimonials-block">
           <div class="first-slide slide my-slider">
             <div class="test-card px-3">
@@ -309,10 +310,10 @@
 
       <!-- *Get in touch -->
       <section class="get-in-touch-container container">
-        <div class="mx-auto text-center touch-header-wrapper">
+        <div class="mx-auto text-center touch-header-wrapper" data-aos="slide-right">
           <span class="">Get In Touch</span>
         </div>
-        <div class="contact-cards-wrapper col-md-9 mx-n3 mx-auto px-0 ">
+        <div class="contact-cards-wrapper col-md-9 mx-n3 mx-auto px-0" data-aos="fade-up">
           <div class="contact-card m-3 mb-5 mb-md-3">
             <img src="./assets/images/phone-icon.svg" alt="">
             <h6>Phone</h6>
@@ -331,15 +332,15 @@
             <p class=" mx-auto">Mile 23, California , Los Angeles, U.S.A</p>
           </div>
         </div>
-        <div class="socials-container text-center">
+        <div class="socials-container text-center" data-aos="fade-up">
           <img src="./assets/images/behance.svg" alt="">
           <img src="./assets/images/dribble.svg" alt="">
           <img src="./assets/images/twitter.svg" alt="">
         </div>
-        <div class="text-center col-sm-8 col-md-6 px-lg-5 mx-auto question">
+        <div class="text-center col-sm-8 col-md-6 px-lg-5 mx-auto question" data-aos="fade-up">
           <h6>Any question about my rates and services? Kindly leave a message for me.</h6>
         </div>
-        <div class="form-wrapper mx-auto">
+        <div class="form-wrapper mx-auto" data-aos="zoom-in">
           <form action="#" class="mx-auto text-center" id="contact">
             <div class="form-group mx-auto text-center">
               <input type="text"
@@ -378,11 +379,14 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/jquery.waypoints.js"></script>
+    <script src="./assets/js/jquery.rcounter.js"></script>
     <script src="./assets/js/custom.js"></script> 
   </body>
 </html>
+
+
 
 
