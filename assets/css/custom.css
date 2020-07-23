@@ -14,9 +14,12 @@ body {
   font-family: var(--font);
 }
 
-html {
-  scroll-behavior: smooth;
+@media (min-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }  
 }
+
 
 /* *navigation */
 

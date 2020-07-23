@@ -58,9 +58,18 @@ function openNav() {
   document.getElementById("myNav").style.height = "100vh";
 }
 
+
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
+
+$('.mobile-link').click(function() {
+  setTimeout(
+    function(){ 
+      closeNav();
+    }, 150);
+ 
+})
 
   
 
