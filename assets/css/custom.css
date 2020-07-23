@@ -90,7 +90,7 @@ html {
   height: 100%;
   z-index: -2;
   display: block;
-  background: url("https://res.cloudinary.com/dejiabiola/image/upload/v1595368925/envato_2.0/hero.jpg");
+  background: url("../images/placeholder\ \(1\).jpg");
   background-size: cover;
   object-fit: cover;
   background-position: 50% top;
@@ -101,7 +101,7 @@ html {
 
 @media (max-width: 767px) {
   .hero-section:before {
-    background: url("https://res.cloudinary.com/dejiabiola/image/upload/v1595467623/envato_2.0/hero2.jpg");
+    background: url("../images/placeholder\ \(1\).jpg");
     background-position: 50% top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ html {
 
 @media (max-width: 500px) {
   .hero-section:before {
-    background: url("https://res.cloudinary.com/dejiabiola/image/upload/v1595467874/envato_2.0/Webp.net-compress-image.jpg");
+    background: url("../images/placeholder\ \(1\).jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
