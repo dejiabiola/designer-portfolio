@@ -1,9 +1,5 @@
 
-// $(window).on('load', function () {
-//   $('#status').dalay(200).fadeOut()
-//   $('#preloader').delay(500).fadeOut()
-//   // $('.navbar-brand').addClass('animate__animated animate__bounce')
-// })
+
 
 // Tiny slider config
 var slider = tns({
@@ -45,7 +41,7 @@ function closeNav() {
 
 // Animate on scroll config
 AOS.init({
-  offset: 150,
+  offset: 200,
   duration: 600,
   once: true,
   // disable: 'phone'
@@ -62,8 +58,6 @@ $(function(){
     });
 });
   
-
-
   
 
 
