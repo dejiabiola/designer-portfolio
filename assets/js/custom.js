@@ -31,7 +31,7 @@ var slider = tns({
 
 // Mobile navbar config
 function openNav() {
-  document.getElementById("myNav").style.height = "100%";
+  document.getElementById("myNav").style.height = "100vh";
 }
 
 function closeNav() {
