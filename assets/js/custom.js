@@ -68,7 +68,6 @@ $('.mobile-link').click(function() {
     function(){ 
       closeNav();
     }, 150);
- 
 })
 
   
